@@ -10,12 +10,15 @@
     border-radius: 50%;
 	border:3px solid black;
     overflow:hidden;
-    
-    background: #red; 
-    box-shadow: 0 0 3px gray;
+    background: red; 
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top: 150px;
 }
 .round-button-circle:hover {
-	background:#30588e;
+	background: #fff;
+	border:3px solid red;
+	box-shadow: 1px 1px 15px 7px #fff;
 }
 .round-button-circle a {
     display:block;
